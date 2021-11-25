@@ -30,7 +30,7 @@ jobs:
 
       # Fetch latest version
       - name: Fetch
-        run: wget 'https://privateplugin.example&k=${{secrets.PLUGIN_KEY}}' -O package.zip
+        run: wget 'https://connect.advancedcustomfields.com/index.php?a=download&p=pro&k=${{secrets.ACF_PRO_LICENSE}}' -O package.zip
 
       # PHP
       - name: 'Setup PHP'

@@ -1,10 +1,10 @@
 {
-    "name": "plugin-author/plugin-name",
+    "name": "basvandenwijngaard/advanced-custom-fields-pro",
     "type": "wordpress-plugin",
     "authors": [
         {
-            "name": "Ethan Clevenger",
-            "email": "ethan@sternerstuff.dev"
+            "name": "Bas van den Wijngaard",
+            "email": "bas@mightymedia.nl"
         }
     ],
     "require": {},
