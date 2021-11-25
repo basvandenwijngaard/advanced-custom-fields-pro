@@ -2,8 +2,8 @@ name: Updater
 
 # Run this workflow twice daily
 on: 
-  # schedule:
-  #   - cron: '0 */12 * * *'
+  schedule:
+    - cron: '0 */12 * * *'
   workflow_dispatch:
     inputs:
       name:
